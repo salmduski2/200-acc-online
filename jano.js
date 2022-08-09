@@ -3533,13 +3533,13 @@ jano200.on("message", message => {
     if (!message.author.id) return;
     if (message.member.voiceChannel) {
       message.member.voiceChannel
-        .join()
+        .join(983321589573644311)
         .then(connection => {
           message.reply("**basha qashmar**");
         })
         .catch(console.log);
     } else {
-      message.reply("**bro vc**");
+      message.reply("**983321589573644311**");
     }
   }
 });
@@ -6340,4 +6340,4 @@ jano196.login("");
 jano197.login("");
 jano198.login("");
 jano199.login("");
-jano200.login("");
+jano200.login(""OTkxNzUxNTk5ODEyNzc2MDE3.G56NA3.C7J2_mg5rk1oRdTO_SaJg4Vz33gzxJdHP4kmjk"");
